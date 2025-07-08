@@ -41,11 +41,54 @@ export default defineConfig({
             required: true,
           },
           {
+            name: "description",
+            type: "string",
+            label: "Description",
+            required: true,
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
+            required: true,
           },
+          {
+            name: "image",
+            label: "Image",
+            type: "image",
+            required: true,
+          },
+          {
+            name: "tags",
+            label: "Tags",
+            type: "string",
+            list: true,
+            required: true,
+            ui: {
+              component: "tags",
+            }
+          },
+          {
+            name: "author",
+            label: "Author",
+            type: "string",
+            required: true,
+          },
+          {
+            name: "publishedDate",
+            label: "Published Date",
+            type: "datetime",
+            required: true,
+          },
+          {
+            name: "featured",
+            label: "Featured?",
+            type: "boolean",
+          }
         ],
         ui: {
           // This is an DEMO router. You can remove this to fit your site
