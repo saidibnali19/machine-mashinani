@@ -14,7 +14,7 @@ export default async function Home() {
     <>
       <Hero />
       <FeaturedPost title={featuredPost.title} description={featuredPost.description} author={featuredPost.author} publishedDate={featuredPost.publishedDate} tags={featuredPost.tags} slug={featuredPost._sys.filename} image={featuredPost.image} />
-      <AllPosts />
+      <AllPosts posts={posts} />
     </>
   );
 }
