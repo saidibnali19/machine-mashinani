@@ -21,7 +21,7 @@ AI-powered recommendation engines are transforming e-commerce. Platforms like Ju
 
 Data analysis is key to these systems. By processing purchase histories, search patterns, and social media activity, AI predicts what customers want. For example, Jumia uses AI to optimize its Black Friday sales, targeting customers with personalized promotions.
 
-“AI makes shopping feel personal. It’s like the website knows me,” says Sarah Wanjiru, a frequent online shopper.
+> “AI makes shopping feel personal. It’s like the website knows me,” says Sarah Wanjiru, a frequent online shopper.
 
 In physical stores, AI enhances customer experiences. Retailers like Naivas use AI to analyze foot traffic and optimize store layouts. Facial recognition systems, while controversial, are being piloted to offer personalized discounts at checkout.
 
@@ -29,13 +29,10 @@ Challenges include high implementation costs and data privacy concerns. Small re
 
 Key benefits of AI in Kenyan retail:
 
-Personalization: Tailored recommendations drive sales.
-
-Inventory Management: AI predicts stock needs, reducing waste.
-
-Customer Insights: Data analysis improves marketing strategies.
-
-Efficiency: AI automates tasks like pricing and logistics.
+* Personalization: Tailored recommendations drive sales.
+* Inventory Management: AI predicts stock needs, reducing waste.
+* Customer Insights: Data analysis improves marketing strategies.
+* Efficiency: AI automates tasks like pricing and logistics.
 
 Public awareness and digital literacy are critical for AI adoption. Retailers must educate customers about data usage to build trust. Training programs for small businesses can also democratize access to AI tools.
 
@@ -43,4 +40,4 @@ Partnerships with tech hubs like iHub are fostering innovation. These collaborat
 
 The future of AI in Kenyan retail is promising. With continued investment, retailers can create seamless, personalized experiences that drive growth and customer loyalty.
 
-Learn more at Jumia Kenya or iHub.
+Learn more at [Jumia Kenya](https://www.jumia.co.ke/) or [iHub](https://ihub.co.ke/).
