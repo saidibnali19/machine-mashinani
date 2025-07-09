@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Post({ image, title, description, author, publishedDate, tags = [], slug }) {
+    // console.log(image)
     return (
         <>
             <div className="@container">
