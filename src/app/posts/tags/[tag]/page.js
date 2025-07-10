@@ -13,6 +13,7 @@ export default async function page({ params }) {
         post.tags.map(t => t.toLowerCase()).includes(tag.toLowerCase())
     )
 
+    console.log(filtered)
     return (
         <>
             <article>
@@ -21,7 +22,7 @@ export default async function page({ params }) {
                     filtered.length > 0 ? (
                         <div className="">
                             {filtered.map(post => (
-                                <Post key={post._sys.filename} image={post.image} title={post.title} description={post.description} author={post.author} publishedDate={post.publishedDate} tags={post.tags} slug={post.slug} />
+                                <Post key={post._sys.filename} image={post.image} title={post.title} description={post.description} author={post.author} publishedDate={post.publishedDate} tags={post.tags} slug={post._sys.filename} />
                             ))}
                         </div>
                     ) : (

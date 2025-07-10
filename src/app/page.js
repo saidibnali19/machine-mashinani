@@ -3,6 +3,8 @@ import FeaturedPost from "@/components/FeaturedPost";
 import Hero from "@/components/Hero";
 import client from "../../tina/__generated__/client";
 
+
+
 export default async function Home() {
   const { data } = await client.queries.postConnection()
 
@@ -14,7 +16,7 @@ export default async function Home() {
     <>
       <Hero />
       <FeaturedPost title={featuredPost.title} description={featuredPost.description} author={featuredPost.author} publishedDate={featuredPost.publishedDate} tags={featuredPost.tags} slug={featuredPost._sys.filename} image={featuredPost.image} />
-      <AllPosts posts={posts} />
+      <AllPosts />
     </>
   );
 }
