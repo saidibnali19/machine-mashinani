@@ -12,7 +12,7 @@ export default function Post({ image, title, description, author, publishedDate,
                     <div className="p-4 space-y-4">
                         <div className="flex gap-4 flex-wrap">
                             {tags.slice(0, 2).map((tag, index) => (
-                                <Link key={index} className="p-[.5em_1.5em] bg-sky-950 text-gray-50 text-xs rounded-full hover:opacity-75 focus-visible:opacity-75" href={"/"} >{tag}</Link>
+                                <Link key={index} className="p-[.5em_1.5em] bg-sky-950 text-gray-50 text-xs rounded-full hover:opacity-75 focus-visible:opacity-75" href={`/posts/tags/${encodeURIComponent(tag)}`} >{tag}</Link>
                             ))}
                         </div>
                         <h3 className="text-2xl text-sky-950">{title}</h3>
